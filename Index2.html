@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<title>Rohit Portfolio</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style>
+
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width: 1600px">
+
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index: 3; width: 300px" id="mySidebar">
+        <br />
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="assets/img/rohit2.jpg" style="width: 45%" class="w3-round" /><br /><br />
+            <h4><b>PORTFOLIO</b></h4>
+
+        </div>
+        <div class="w3-bar-block">
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a
+        >
+        <a
+          href="#about"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a
+        >
+        <a
+          href="#contact"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a
+        >
+      </div>
+      <div class="w3-bar-block w3-padding-large w3-margin-right-20 w3-large">
+        <button class="btn"><a href="https://medium.com/@mnarute28"><i class="fa fa-medium w3-hover-opacity"></i></a></button>
+            <button class="btn"><a href="https://github.com/rohitkhedkar2709"><i class="fa fa-github w3-hover-opacity"></i></a></button>
+            <button class="btn"><a href="https://www.linkedin.com/in/rohit-khedkar-457907221/"><i class="fa fa-linkedin w3-hover-opacity"></i></a></button>
+        </div>
+    </nav>
+
+
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor: pointer" title="close side menu" id="myOverlay"></div>
+
+    <div class="w3-main" style="margin-left: 300px">
+
+        <header id="portfolio">
+            <a href="#"><img src="assets/img/rohit3.jpg" style="width: 100px; border-radius: 20px;" class="w3-right w3-margin w3-hide-large w3-hover-opacity" /></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i
+        ></span>
+            <div class="w3-container">
+                <h1><b>Rohit Khedkar</b></h1>
+                <div class="w3-section w3-bottombar w3-padding-16">
+                    <span class="w3-margin-right">Projects:</span>
+                    <button class="w3-button w3-black">ALL</button>
+                    <button class="w3-button w3-white">
+              <i class="fa fa-photo w3-margin-right"></i>Static
+            </button>
+                    <button class="w3-button w3-white w3-hide-small">
+              <i class="fa fa-diamond w3-margin-right"></i>Dynamic
+            </button>
+                    <button class="w3-button w3-white w3-hide-small">
+              <i class="fa fa-map-pin w3-margin-right"></i>Console
+            </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+
+                <div id="web1" class="w3-container w3-white w3-center">
+                    <img src="assets/img/web-programming.png" alt="Norway" style="width: 20%" class="w3-hover-opacity" />
+                    <p><b>Mobile Store Static Website</b></p>
+                    <p>
+                        Online Mobile Store Static Website using html5, css3, Bootstrap & Javascript. User can see latest mobile brands on this site. Also can view our offers & discounts on expensive mobile brands.
+                    </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+
+                <div class="w3-container w3-white w3-center">
+                    <img src="assets/img/java.png" alt="Norway" style="width: 20%" class="w3-hover-opacity" />
+                    <p><b>Recharge Application using Servlet-JSP</b></p>
+                    <p>
+                        Frontend: HTML5, CSS3, Bootstrap & JS
+                        <br>Backend: Oracle, Servlet-JSP<br> User can do recharge to another mobile number. And also can perform transactions for his account.
+                    </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+
+                <div class="w3-container w3-white w3-center">
+                    <img src="assets/img/php.png" alt="Norway" style="width: 20%;" class="w3-hover-opacity" />
+                    <p><b>Student Result Management System</b></p>
+                    <p>
+                        Dynamic Result Management System using PHP-MySQL.Both teacher & student can login. Teacher can add subjects & edit results for student. And student can view his/her particular subject's result.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+
+                <div class="w3-container w3-white w3-center">
+                    <img src="assets/img/cpp-icon-file-format.png" alt="Norway" style="width: 20%;" class="w3-hover-opacity" />
+                    <p><b>Shopping Application using C++</b></p>
+                    <p>
+                        Shopping Console Application created using c++ & data structure concepts. Includes admin & customer sections & various operations like customer login & register, product Management & bill generation.
+                    </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="w3-container w3-white w3-center">
+                    <img src="assets/img/web-programming.png" alt="Norway" style="width: 20%;" class="w3-hover-opacity" />
+                    <p><b>Web Dev Static Website</b></p>
+                    <p>
+                        Responsive Landing page of company named as WebDev created using HTML5, CSS3 & JS. Includes animative features & various sections like product purchase, contact, projects, etc.
+                    </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <div class="w3-container w3-white w3-center">
+                    <img src="assets/img/java.png" alt="Norway" style="width: 20%;" class="w3-hover-opacity" />
+                    <p><b>Bank Application using Swing-AWT</b></p>
+                    <p>
+                        It is a GUI Application in which customer can create his bank account & can do transactions like deposit & withdrawl & can recharge to another number. All data will be saved into the Oracle DB.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-padding-16" id="about">
+            <div class="w3-col m6">
+                <img src="assets/img/rohit.jpeg" alt="Me" style="width: 100%" />
+            </div>
+            <div class="w3-col m6">
+                <img src="assets/img/rohit.jpeg" alt="Me" style="width: 100%; opacity: 40%;" />
+            </div>
+        </div>
+
+        <div class="w3-container w3-padding-large" style="margin-bottom: 32px">
+            <h5><b>About Me</b></h5>
+            <p>
+                Hello All,This is Rohit Khedkar. Currently Pursuing in Third Year Computer Science BE at Jayawantrao Sawant College of Engineering Pune. I have developed many projects in C++, Java, and html-css. Also hosted many Static Websites. And experienced in developing
+                Dynamic Java-based Web Applications. Started learning Python & building projects in it. Passionate & innovative in Web Designing. Well known with DBMS & data structure. Focused to be an excellent software engineer.
+            </p>
+            <hr />
+
+            <h5><b>Technical Skills</b></h5>
+            <!-- Progress bars / Skills -->
+            <h6>Web Technology
+                <p id="co">HTML / CSS / Bootstrap / PHP / Javascript</p>
+            </h6>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding-14 w3-center" style="width: 95%">
+                    95%
+                </div>
+            </div>
+            <h6>Databases
+                <p id="co">MySQL / Oracle / Access</p>
+            </h6>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding-14 w3-center" style="width: 85%">
+                    85%
+                </div>
+            </div>
+            <h6>Programming Languages
+                <p id="co">C / C++ / Java / Core Python / Servlet-JSP</p>
+            </h6>
+            <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-padding-14 w3-center" style="width: 80%">
+                    90%
+                </div>
+            </div>
+            <p>
+                <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+            <a href="Rohit Khedkar Resume.pdf" download> <i class="fa fa-download w3-margin-right"></i></a>Download Resume
+          </button>
+            </p>
+            <hr />
+
+
+            <div class="w3-container w3-padding-large w3-grey">
+                <h4 id="contact"><b>Contact Me</b></h4>
+                <div class="w3-row-padding w3-center w3-padding-24" style="margin: 0 -16px">
+                    <div class="w3-third w3-dark-grey">
+                        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>rohitkhedkar2709@gmail.com</p>
+                    </div>
+                    <div class="w3-third w3-teal">
+                        <p>
+                            <i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i>
+                        </p>
+                        <p>Pune, Maharashtra</p>
+                    </div>
+                    <div class="w3-third w3-dark-grey">
+                        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>9011881352</p>
+                    </div>
+                </div>
+                <hr class="w3-opacity" />
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <label>Name</label>
+                        <input class="w3-input w3-border" type="text" name="Name" required />
+                    </div>
+                    <div class="w3-section">
+                        <label>Email</label>
+                        <input class="w3-input w3-border" type="email" name="Email" required />
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required />
+                    </div>
+                    <button type="submit" class="w3-button w3-black w3-margin-bottom">
+            <i class="fa fa-paper-plane w3-margin-right"></i>Send Message
+          </button>
+                </form>
+            </div>
+
+            <footer class="w3-container w3-padding-32 w3-dark-grey">
+                <div class="w3-row-padding">
+                    <div class="w3-third">
+                        <h3>My Self</h3>
+                        <p>
+                            A talented and creative Java Full Stack Developer with an eye of develop enhance applications. Has hands-on experience in developing both static and dynamic websites from internships.
+
+                        </p>
+
+                    </div>
+                    <div class="w3-third"><br></div>
+
+                    <div class="w3-third">
+                        <h3>INTERESTS</h3>
+                        <p>
+                            <span class="w3-tag w3-black w3-margin-bottom">Travel</span>
+                            <span class="w3-tag w3-black w3-margin-bottom">Sketching</span>
+                            <span class="w3-tag w3-black w3-margin-bottom">Painting</span>
+                            <span class="w3-tag w3-black w3-margin-bottom">Reading</span>
+                            <span class="w3-tag w3-black w3-margin-bottom">Music</span>
+                            <span class="w3-tag w3-black w3-margin-bottom">Photography</span>
+                            <span class="w3-tag w3-black w3-margin-bottom">Coding</span>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+
+            <div class="w3-black w3-center w3-padding-24">
+                Designed by
+                <a href="" title="rohit" class="w3-hover-opacity">@Rohit Khedkar</a
+        >
+      </div>
+
+    </div>
+
+    <script>
+     
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#co {
+    font-size: 12px;
+}
+
+.btn {
+    background-color: black;
+    font-size: 20px;
+    border: 2px solid rgb(11, 237, 245);
+    border-radius: 20px;
+    padding: 5px 9px;
+}
+
+.btn i {
+    color: white;
+}
+
+.btn:hover {
+    font-size: 23px;
+}
